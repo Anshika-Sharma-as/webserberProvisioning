@@ -1,10 +1,10 @@
-<body bgcolor='aqua'>
 
+<body bgcolor='aqua'>
 <pre>
 
 <?php 
 
-<h1> print "Welcome to this page that will show this OS details!!!!"</h1>
+ print "Welcome to this page that will show this OS details!!!!";
 
 print `ifconfig`;
 
@@ -18,4 +18,3 @@ print `free -m`;
 
 </pre>
 
-</body>
