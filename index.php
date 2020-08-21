@@ -4,18 +4,11 @@
 
 <pre>
 
-<?php 
-
- print "Welcome to this page that will show this OS details!!!!";
-
-print `ifconfig`;
-
-print "\n ";
-
-print `lscpu`;
-
-print `free -m`;
-
+<?php
+  $cloudfront_url = `head -n1 mydesti.txt`;
+  $img_path = "https://".$cloudfront_url."/logo.jpg";
+  echo "<br>";
+  echo "<img src='{$img_path}' width=100 height=100>";
 ?>
 
 </pre>
